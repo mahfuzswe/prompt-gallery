@@ -28,7 +28,10 @@ The extension requests only the minimum permissions required:
 - **storage** — to save your prompts locally on your device
 - **activeTab** — to insert prompts into the active AI input field
 - **clipboardWrite** — to copy prompts to your clipboard on request
-- **scripting** — to inject the save button into AI chat interfaces
+
+The save UI on AI websites is injected by declarative content scripts declared in 
+the extension manifest (`content_scripts`). The extension does **not** use the 
+Chrome `scripting` API and does not request the `scripting` permission.
 
 ## Third-Party Services
 This extension does not use any third-party services, analytics 

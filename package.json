@@ -1,6 +1,6 @@
 {
   "name": "prompt-gallery",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Save, organize, and reuse AI prompts from any website — instantly.",
   "scripts": {
     "dev": "vite build --watch",
